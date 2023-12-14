@@ -25,6 +25,22 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
+  packages/app-0-ts-be:
+    dependencies:
+      '@gmahechas/common-express-ts-be':
+        specifier: 0.0.0
+        version: link:../common/common-express-ts-be
+      '@gmahechas/common-utils-ts-be':
+        specifier: workspace:*
+        version: link:../common/common-utils-ts-be/common-graphql-ts-be
+    devDependencies:
+      '@types/node':
+        specifier: 20.10.4
+        version: 20.10.4
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+
   packages/common/common-express-ts-be:
     dependencies:
       express:
@@ -53,6 +69,15 @@ importers:
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
+      '@types/node':
+        specifier: 20.10.4
+        version: 20.10.4
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+
+  packages/common/common-utils-ts-be/common-graphql-ts-be:
+    dependencies:
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
@@ -656,7 +681,6 @@ packages:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
 
   /@types/normalize-package-data@2.4.4:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4209,7 +4233,6 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: true
 
   /uglify-js@3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
@@ -4221,7 +4244,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    dev: true
 
   /unique-filename@2.0.1:
     resolution: {integrity: sha512-ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==}
