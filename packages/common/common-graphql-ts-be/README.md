@@ -1,1 +1,1 @@
-# `common-graphql-ts`
+# `common-graphql-ts-be`
