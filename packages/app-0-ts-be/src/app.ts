@@ -1,4 +1,4 @@
-import { express } from '@gmahechas/common-express-ts';
+import { express } from '@gmahechas/common-express-ts-be';
 
 const app = express();
 
