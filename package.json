@@ -1,7 +1,7 @@
 {
   "name": "apps",
-  "version": "0.0.1",
-  "description": "app-0",
+  "version": "0.0.0",
+  "description": "apps",
   "author": "gmahechas",
   "license": "ISC",
   "private": true,
