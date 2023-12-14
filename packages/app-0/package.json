@@ -12,7 +12,7 @@
     "start:development": "pnpm build:development && node dist/index.js"
   },
   "dependencies": {
-    "@gmahechas/common-express-ts": "0.0.1"
+    "@gmahechas/common-express-ts": "0.0.2"
   },
   "devDependencies": {
     "@types/node": "20.10.4",
