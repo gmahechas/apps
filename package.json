@@ -1,10 +1,17 @@
 {
   "name": "apps",
+  "version": "0.0.1",
+  "description": "app-0",
+  "author": "gmahechas",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "lerna": "lerna"
   },
   "devDependencies": {
     "lerna": "8.0.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
