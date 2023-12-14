@@ -1,6 +1,6 @@
 {
   "name": "app-0",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "app-0",
   "author": "gmahechas",
   "license": "ISC",
@@ -12,7 +12,7 @@
     "start:development": "pnpm build:development && node dist/index.js"
   },
   "dependencies": {
-    "@gmahechas/common-express-ts": "0.0.3"
+    "@gmahechas/common-express-ts": "0.0.4"
   },
   "devDependencies": {
     "@types/node": "20.10.4",

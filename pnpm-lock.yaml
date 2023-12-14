@@ -15,7 +15,7 @@ importers:
   packages/app-0:
     dependencies:
       '@gmahechas/common-express-ts':
-        specifier: 0.0.3
+        specifier: 0.0.4
         version: link:../common/common-express-ts
     devDependencies:
       '@types/node':
