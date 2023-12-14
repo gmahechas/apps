@@ -1,0 +1,10 @@
+{
+  "name": "apps",
+  "private": true,
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  }
+}
