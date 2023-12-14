@@ -1,7 +1,7 @@
 {
-  "name": "@gmahechas/common-graphql-ts",
+  "name": "@gmahechas/common-graphql-ts-be",
   "version": "0.0.0",
-  "description": "common-graphql-ts",
+  "description": "common-graphql-ts-be",
   "author": "gmahechas",
   "license": "ISC",
   "private": false,

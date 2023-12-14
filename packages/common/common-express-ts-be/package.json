@@ -1,7 +1,7 @@
 {
-  "name": "@gmahechas/common-express-ts",
+  "name": "@gmahechas/common-express-ts-be",
   "version": "0.0.0",
-  "description": "common-express-ts",
+  "description": "common-express-ts-be",
   "author": "gmahechas",
   "license": "ISC",
   "private": false,

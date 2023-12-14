@@ -12,11 +12,11 @@ importers:
         specifier: 8.0.0
         version: 8.0.0
 
-  packages/app-0:
+  packages/app-0-be:
     dependencies:
-      '@gmahechas/common-express-ts':
-        specifier: 0.0.3
-        version: link:../common/common-express-ts
+      '@gmahechas/common-express-ts-be':
+        specifier: 0.0.0
+        version: link:../common/common-express-ts-be
     devDependencies:
       '@types/node':
         specifier: 20.10.4
@@ -25,7 +25,7 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
-  packages/common/common-express-ts:
+  packages/common/common-express-ts-be:
     dependencies:
       express:
         specifier: 4.18.2
@@ -41,7 +41,7 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
-  packages/common/common-graphql-ts:
+  packages/common/common-graphql-ts-be:
     dependencies:
       express:
         specifier: 4.18.2
