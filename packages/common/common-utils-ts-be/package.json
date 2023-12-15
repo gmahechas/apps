@@ -22,11 +22,10 @@
     "uuid": "9.0.1"
   },
   "devDependencies": {
-    "@types/node": "20.10.4",
-    "@types/uuid": "9.0.7",
-    "typescript": "5.3.3"
+    "@types/uuid": "9.0.7"
   },
-  "engines": {
-    "node": "20.x"
+  "peerDependencies": {
+    "@types/node": "20.10.4",
+    "typescript": "5.3.3"
   }
 }

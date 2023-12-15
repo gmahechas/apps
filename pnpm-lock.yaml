@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      husky:
-        specifier: ^8.0.0
-        version: 8.0.3
       lerna:
         specifier: 8.0.0
         version: 8.0.0
@@ -33,54 +30,54 @@ importers:
 
   packages/common/common-express-ts-be:
     dependencies:
+      '@types/node':
+        specifier: 20.10.4
+        version: 20.10.4
       express:
         specifier: 4.18.2
         version: 4.18.2
+      typescript:
+        specifier: 4.1.6
+        version: 4.1.6
     devDependencies:
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
-      '@types/node':
-        specifier: 20.10.4
-        version: 20.10.4
-      typescript:
-        specifier: 5.3.3
-        version: 5.3.3
 
   packages/common/common-graphql-ts-be:
     dependencies:
+      '@types/node':
+        specifier: 20.10.4
+        version: 20.10.4
       express:
         specifier: 4.18.2
         version: 4.18.2
       graphql:
         specifier: 16.8.1
         version: 16.8.1
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
     devDependencies:
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
+
+  packages/common/common-utils-ts-be:
+    dependencies:
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
       typescript:
-        specifier: 5.3.3
-        version: 5.3.3
-
-  packages/common/common-utils-ts-be:
-    dependencies:
+        specifier: 4.1.6
+        version: 4.1.6
       uuid:
         specifier: 9.0.1
         version: 9.0.1
     devDependencies:
-      '@types/node':
-        specifier: 20.10.4
-        version: 20.10.4
       '@types/uuid':
         specifier: 9.0.7
         version: 9.0.7
-      typescript:
-        specifier: 5.3.3
-        version: 5.3.3
 
 packages:
 
@@ -678,7 +675,6 @@ packages:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
 
   /@types/normalize-package-data@2.4.4:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2096,12 +2092,6 @@ packages:
     resolution: {integrity: sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==}
     dependencies:
       ms: 2.1.3
-    dev: true
-
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
-    hasBin: true
     dev: true
 
   /iconv-lite@0.4.24:
@@ -4237,11 +4227,16 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
+  /typescript@4.1.6:
+    resolution: {integrity: sha512-pxnwLxeb/Z5SP80JDRzVjh58KsM6jZHRAOtTpS7sXLS4ogXNKC9ANxHHZqLLeVHZN35jCtI4JdmLLbLiC1kBow==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
   /typescript@5.3.3:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: true
 
   /uglify-js@3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
@@ -4253,7 +4248,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    dev: true
 
   /unique-filename@2.0.1:
     resolution: {integrity: sha512-ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==}
