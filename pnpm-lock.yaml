@@ -14,6 +14,9 @@ importers:
 
   packages/app-1-ts-be:
     dependencies:
+      '@gmahechas/common-devtools-ts-be':
+        specifier: 0.0.0
+        version: link:../common/common-devtools-ts-be
       '@gmahechas/common-express-ts-be':
         specifier: 0.0.0
         version: link:../common/common-express-ts-be
@@ -27,6 +30,12 @@ importers:
       typescript:
         specifier: 5.3.3
         version: 5.3.3
+
+  packages/common/common-devtools-ts-be:
+    dependencies:
+      husky:
+        specifier: 8.0.3
+        version: 8.0.3
 
   packages/common/common-express-ts-be:
     dependencies:
@@ -2093,6 +2102,12 @@ packages:
     dependencies:
       ms: 2.1.3
     dev: true
+
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
