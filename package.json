@@ -6,10 +6,12 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "lerna": "8.0.0"
+    "lerna": "8.0.0",
+    "husky": "^8.0.0"
   },
   "engines": {
     "node": "20.x"
