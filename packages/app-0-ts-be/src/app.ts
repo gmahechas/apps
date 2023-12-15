@@ -1,10 +1,14 @@
-import { express } from '@gmahechas/common-express-ts-be';
+import { createExpressApp, createExpressRouter } from '@gmahechas/common-express-ts-be';
 
-const app = express();
+const app = createExpressApp();
+const router = createExpressRouter();
 
-app.get('/', (req, res) => {
-	res.send('Hello from app-0!');
-})
-app.disable('x-powered-by');
+export const routes = router.use('/rest', [
+	app.get('/', (req, res) => {
+		res.send('Hello from app-0!');
+	})
+]);
+
+app.use(routes);
 
 export { app };

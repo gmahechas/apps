@@ -1,3 +1,1 @@
-export interface MyInterfaceTwo {
-	bar: string;
-}
+export * from './adapters';
