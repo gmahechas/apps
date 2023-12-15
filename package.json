@@ -6,7 +6,8 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "prepare": "init-husky"
   },
   "devDependencies": {
     "lerna": "8.0.0"
