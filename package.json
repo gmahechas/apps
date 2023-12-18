@@ -6,8 +6,9 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "lerna": "lerna",
-    "format": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --write \"./packages/**/*.{ts,json}\" && eslint -c ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix packages/**/*.ts",
+    "eslint": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix packages/**/*.ts",
+    "prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --write \"./packages/**/*.{ts,json}\"",
+    "format": "pnpm prettier && pnpm eslint",
     "prepare": "init-husky"
   },
   "devDependencies": {
