@@ -1,3 +1,3 @@
 export interface MyInterfaceTwo {
-	bar: string
+  bar: string;
 }
