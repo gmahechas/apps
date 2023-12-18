@@ -7,6 +7,7 @@ const start = async () => {
 			console.log(`app is runnig on: http://localhos:${30000}`);
 		});
 	} catch (error) {
+		console.log(error);
 	}
 };
 
