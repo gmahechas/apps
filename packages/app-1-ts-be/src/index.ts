@@ -1,6 +1,6 @@
 import { app } from './app';
 
-const start = async () => {
+const start = async (): Promise<void> => {
 	try {
 		app.listen(30000, () => {
 			console.log('environment:');
