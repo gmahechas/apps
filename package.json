@@ -7,8 +7,8 @@
   "private": true,
   "scripts": {
     "lerna": "lerna",
-    "format": "eslint packages/** -c .eslintrc.js --color --fix",
-    "prepare": "init-husky && init-eslint"
+    "format": "eslint packages/**/*.ts -c ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js  --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix",
+    "prepare": "init-husky"
   },
   "devDependencies": {
     "@gmahechas/common-devtools-ts-be": "link:/Users/tavogus/dev/company/common-devtools-js-be",
