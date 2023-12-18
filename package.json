@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "lerna": "lerna",
-    "format": "eslint packages/app-1-ts-be/src/** -c .eslintrc.js --color --fix",
+    "format": "eslint packages/** -c .eslintrc.js --color --fix",
     "prepare": "init-husky && init-eslint"
   },
   "devDependencies": {
