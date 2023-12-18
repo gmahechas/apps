@@ -11,4 +11,4 @@ export const createExpressRouter = (): express.Router => {
 	return router;
 };
 
-export type { Express, Request, Response, NextFunction } from 'express';
+export type { Express, NextFunction, Request, Response } from 'express';
