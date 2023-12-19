@@ -11,7 +11,7 @@
     "prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore \"./packages/**/*.{ts,json}\"",
     "prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --write \"./packages/**/*.{ts,json}\"",
     "format": "pnpm prettier:write && pnpm eslint:fix",
-    "lint-staged": "lint-staged",
+    "lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-ts-be/.lintstagedrc",
     "prepare": "init-husky"
   },
   "devDependencies": {
