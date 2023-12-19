@@ -12,7 +12,7 @@
     "prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check --write \"./packages/**/*.{ts,json}\"",
     "format": "pnpm prettier:write && pnpm eslint:fix",
     "lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-ts-be/.lintstagedrc",
-    "commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-ts-be/.commitlintrc --from main",
+    "commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-ts-be/commitlint.config.js",
     "prepare": "init-husky"
   },
   "devDependencies": {
