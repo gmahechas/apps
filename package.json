@@ -5,10 +5,8 @@
   "author": "gmahechas",
   "license": "ISC",
   "private": true,
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
-    "@gmahechas/common-devtools-js-be": "link:/Users/tavogus/dev/company/common-devtools-js-be",
     "lerna": "8.0.0"
   }
 }

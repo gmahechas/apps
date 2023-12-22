@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../common-devtools-js-be
       lerna:
         specifier: 8.0.0
         version: 8.0.0
