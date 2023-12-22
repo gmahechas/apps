@@ -5,6 +5,7 @@
 	"author": "gmahechas",
 	"license": "ISC",
 	"private": true,
+	"workspaces": ["packages/**/*"],
 	"scripts": {
 		"eslint": "eslint --config ./node_modules/@gmahechas/common-devtools-js-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.eslintignore packages/**/*.ts",
 		"eslint:fix": "eslint --config ./node_modules/@gmahechas/common-devtools-js-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.eslintignore --fix packages/**/*.ts",
