@@ -1,7 +1,0 @@
-.eslintrc.js
-.prettierrc
-commitlint.config.js
-bin
-dist
-node_modules
-coverage
