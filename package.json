@@ -10,13 +10,13 @@
     "eslint:fix": "eslint --config ./node_modules/@gmahechas/common-devtools-js-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.eslintignore --fix packages/**/*.ts",
     "prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-js-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.prettierignore --check \"./packages/**/*.{ts,json}\"",
     "prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-js-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.prettierignore --check --write \"./packages/**/*.{ts,json}\"",
-    "format": "pnpm prettier:write && pnpm eslint:fix",
+    "format": "yarn prettier:write && yarn eslint:fix",
     "lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-js-be/.lintstagedrc",
     "commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-js-be/commitlint.config.js --edit",
     "prepare": "init-husky"
   },
   "devDependencies": {
-    "@gmahechas/common-devtools-js-be": "link:/Users/tavogus/dev/company/common-devtools-js-be",
+    "@gmahechas/common-devtools-js-be": "file:/Users/tavogus/dev/company/common-devtools-js-be",
     "lerna": "8.0.0"
   }
 }
