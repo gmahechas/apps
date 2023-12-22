@@ -1,0 +1,6 @@
+{
+	"eslint.options": {
+		"overrideConfigFile": "./node_modules/@gmahechas/common-devtools-js-be/.eslintrc.js"
+	},
+	"prettier.configPath": "./node_modules/@gmahechas/common-devtools-js-be/.prettierrc"
+}
