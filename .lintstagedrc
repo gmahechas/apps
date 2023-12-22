@@ -1,0 +1,6 @@
+{
+	"**/*.ts": [
+		"eslint --config ./node_modules/@gmahechas/common-devtools-js-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.eslintignore",
+		"prettier --config ./node_modules/@gmahechas/common-devtools-js-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-js-be/.prettierignore --check"
+	]
+}
