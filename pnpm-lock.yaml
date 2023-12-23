@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../common-devtools-js-be
       lerna:
         specifier: 8.0.0
         version: 8.0.0
@@ -24,9 +21,6 @@ importers:
         specifier: 0.0.0
         version: link:../common/common-utils-ts-be
     devDependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../../../common-devtools-js-be
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
@@ -46,18 +40,12 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
     devDependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../../../../common-devtools-js-be
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
 
   packages/common/common-graphql-ts-be:
     dependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../../../../common-devtools-js-be
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
@@ -77,9 +65,6 @@ importers:
 
   packages/common/common-utils-ts-be:
     dependencies:
-      '@gmahechas/common-devtools-js-be':
-        specifier: link:/Users/tavogus/dev/company/common-devtools-js-be
-        version: link:../../../../common-devtools-js-be
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4

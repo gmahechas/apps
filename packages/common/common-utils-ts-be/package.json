@@ -21,7 +21,6 @@
 		"test:coverage": "jest --config ./../../../node_modules/@gmahechas/common-devtools-js-be/jest.config.js --passWithNoTests --coverage --rootDir ./src"
 	},
 	"dependencies": {
-		"@gmahechas/common-devtools-js-be": "link:/Users/tavogus/dev/company/common-devtools-js-be",
 		"uuid": "9.0.1"
 	},
 	"devDependencies": {
