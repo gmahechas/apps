@@ -15,7 +15,6 @@
 		"commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-ts-be/commitlint.config.js --edit"
 	},
 	"devDependencies": {
-		"@gmahechas/common-devtools-ts-be": "github:gmahechas/gmahechas-common-devtools-ts-be",
 		"lerna": "8.0.0"
 	}
 }
