@@ -14,7 +14,7 @@
 		"format": "yarn prettier:write && yarn eslint:fix",
 		"lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-js-be/.lintstagedrc",
 		"commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-js-be/commitlint.config.js --edit",
-		"prepare": "init-husky"
+		"prepare": "node ./node_modules/@gmahechas/common-devtools-js-be/bin/init-husky.js"
 	},
 	"devDependencies": {
 		"@gmahechas/common-devtools-js-be": "file:/Users/tavogus/dev/company/common-devtools-js-be",

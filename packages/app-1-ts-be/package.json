@@ -18,7 +18,7 @@
 		"@gmahechas/common-utils-ts-be": "0.0.0"
 	},
 	"devDependencies": {
-		"@gmahechas/common-devtools-js-be": "file:/Users/tavogus/dev/company/common-devtools-js-be",
+		"@gmahechas/common-devtools-js-be": "link:/Users/tavogus/dev/company/common-devtools-js-be",
 		"@types/node": "20.10.4",
 		"typescript": "5.3.3"
 	}

@@ -517,6 +517,10 @@
     prettier-plugin-organize-imports "3.2.4"
     ts-jest "29.1.1"
 
+"@gmahechas/common-devtools-js-be@link:../common-devtools-js-be":
+  version "0.0.0"
+  uid ""
+
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.13.tgz#075dc9684f40a531d9b26b0822153c1e832ee297"
