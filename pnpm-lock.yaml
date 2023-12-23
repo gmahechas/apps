@@ -15,7 +15,7 @@ importers:
   packages/app-1-ts-be:
     dependencies:
       '@gmahechas/common-express-ts-be':
-        specifier: 0.0.0
+        specifier: workspace:*
         version: link:../common/common-express-ts-be
       '@gmahechas/common-utils-ts-be':
         specifier: 0.0.0

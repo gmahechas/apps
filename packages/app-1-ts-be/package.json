@@ -14,8 +14,8 @@
 		"test:coverage": "jest --config ./../../node_modules/@gmahechas/common-devtools-js-be/jest.config.js --passWithNoTests --coverage --rootDir ./src"
 	},
 	"dependencies": {
-		"@gmahechas/common-express-ts-be": "0.0.0",
-		"@gmahechas/common-utils-ts-be": "0.0.0"
+		"@gmahechas/common-express-ts-be": "workspace:*",
+		"@gmahechas/common-utils-ts-be": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/node": "20.10.4",
