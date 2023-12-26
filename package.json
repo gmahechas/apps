@@ -16,7 +16,7 @@
 		"prepare": "init-husky"
 	},
 	"devDependencies": {
-		"@gmahechas/common-devtools-ts-be": "link:/Users/tavogus/dev/company/common-devtools-ts-be",
+		"@gmahechas/common-devtools-ts-be": "0.0.3",
 		"lerna": "8.0.0"
 	}
 }
