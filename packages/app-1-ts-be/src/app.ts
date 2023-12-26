@@ -3,6 +3,6 @@ import { routes } from './routes';
 
 const app = createExpressApp()
 
-app.use(routes)
+app.use(routes);
 
 export { app };
