@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@gmahechas/common-devtools-ts-be':
+        specifier: link:/Users/tavogus/dev/company/common-devtools-ts-be
+        version: link:../common-devtools-ts-be
       lerna:
         specifier: 8.0.0
         version: 8.0.0
