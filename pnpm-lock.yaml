@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@gmahechas/common-devtools-ts-be':
-        specifier: 0.0.3
-        version: 0.0.3(typescript@5.3.3)
+        specifier: 0.0.6
+        version: 0.0.6(typescript@5.3.3)
       lerna:
         specifier: 8.0.0
         version: 8.0.0
@@ -297,8 +297,8 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@gmahechas/common-devtools-ts-be@0.0.3(typescript@5.3.3):
-    resolution: {integrity: sha512-WlYsluH4TQNCEsondYlgdx7YysjnqLTtka5PtMY45I10VAb1KCmIGPL5cqEZ+Q/PdZ13cjzpiYXNDcDHwkwySA==}
+  /@gmahechas/common-devtools-ts-be@0.0.6(typescript@5.3.3):
+    resolution: {integrity: sha512-DJDSMa2YDqUd8raBn6GsnZ36L+SLW4dGtI8L3kA9o1anLVEzMBGKmKptK3A/nRivrjjQLgo+jO+KxuD4wm4YFQ==}
     hasBin: true
     dependencies:
       '@commitlint/cli': 18.4.3(typescript@5.3.3)
