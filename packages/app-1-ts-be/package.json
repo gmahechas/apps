@@ -6,16 +6,21 @@
 	"license": "ISC",
 	"private": true,
 	"scripts": {
+		"eslint": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore packages/**/*.ts",
+		"eslint:fix": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix packages/**/*.ts",
+		"prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check \"./packages/**/*.{ts,json}\"",
+		"prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check --write \"./packages/**/*.{ts,json}\"",
+		"lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-ts-be/.lintstagedrc",
+		"commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-ts-be/commitlint.config.js --edit",
+		"format": "pnpm prettier:write && pnpm eslint:fix",
 		"build:development": "rm -rf dist && tsc --project tsconfig.development.json",
 		"build:stage": "rm -rf dist && tsc --project tsconfig.stage.json",
 		"build:production": "rm -rf dist && tsc --project tsconfig.production.json",
-		"start:development": "pnpm build:development && node dist/index.js",
-		"test": "jest --config ./../../node_modules/@gmahechas/common-devtools-ts-be/jest.config.js --passWithNoTests --rootDir ./src",
-		"test:coverage": "jest --config ./../../node_modules/@gmahechas/common-devtools-ts-be/jest.config.js --passWithNoTests --coverage --rootDir ./src"
+		"start:development": "pnpm build:development && node dist/index.js"
 	},
 	"dependencies": {
-		"@gmahechas/common-express-ts-be": "workspace:*",
-		"@gmahechas/common-utils-ts-be": "workspace:*"
+		"@gmahechas/common-express-ts-be": "0.0.0",
+		"@gmahechas/common-utils-ts-be": "0.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "20.10.4",
