@@ -24,6 +24,9 @@ importers:
         specifier: 0.0.0
         version: link:../common/common-utils-ts-be
     devDependencies:
+      '@gmahechas/common-devtools-ts-be':
+        specifier: 0.0.8
+        version: 0.0.8(typescript@5.3.3)
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
@@ -43,6 +46,9 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
     devDependencies:
+      '@gmahechas/common-devtools-ts-be':
+        specifier: 0.0.8
+        version: 0.0.8(typescript@5.3.3)
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
@@ -51,7 +57,7 @@ importers:
     dependencies:
       '@types/node':
         specifier: 20.10.4
-        version: 20.10.4
+        version: 18.19.3
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -59,6 +65,9 @@ importers:
         specifier: 9.0.1
         version: 9.0.1
     devDependencies:
+      '@gmahechas/common-devtools-ts-be':
+        specifier: 0.0.8
+        version: 0.0.8(typescript@5.3.3)
       '@types/uuid':
         specifier: 9.0.7
         version: 9.0.7
@@ -933,7 +942,6 @@ packages:
     resolution: {integrity: sha512-k5fggr14DwAytoA/t8rPrIz++lXK7/DqckthCmoZOKNsEbJkId4Z//BqgApXBUGrGddrigYa1oqheo/7YmW4rg==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
 
   /@types/node@20.10.4:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
@@ -3161,7 +3169,7 @@ packages:
     hasBin: true
     dependencies:
       async: 3.2.5
-      chalk: 4.1.0
+      chalk: 4.1.2
       filelist: 1.0.4
       minimatch: 3.1.2
     dev: true

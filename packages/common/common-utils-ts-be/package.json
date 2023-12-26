@@ -29,6 +29,7 @@
 		"uuid": "9.0.1"
 	},
 	"devDependencies": {
+		"@gmahechas/common-devtools-ts-be": "0.0.8",
 		"@types/uuid": "9.0.7"
 	},
 	"peerDependencies": {

@@ -23,6 +23,7 @@
 		"@gmahechas/common-utils-ts-be": "0.0.0"
 	},
 	"devDependencies": {
+		"@gmahechas/common-devtools-ts-be": "0.0.8",
 		"@types/node": "20.10.4",
 		"typescript": "5.3.3"
 	}
