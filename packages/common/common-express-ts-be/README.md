@@ -1,1 +1,0 @@
-# `common-express-ts-be`
