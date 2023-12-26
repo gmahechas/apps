@@ -1,8 +1,8 @@
 import { createExpressApp } from '@gmahechas/common-express-ts-be';
 import { routes } from './routes';
 
-const app = createExpressApp()
+const app = createExpressApp();
 
-app.use(routes)
+app.use(routes);
 
 export { app };
