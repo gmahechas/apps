@@ -14,10 +14,10 @@
 		"dist"
 	],
 	"scripts": {
-		"eslint": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore packages/**/*.ts",
-		"eslint:fix": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix packages/**/*.ts",
-		"prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check \"./packages/**/*.{ts,json}\"",
-		"prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check --write \"./packages/**/*.{ts,json}\"",
+		"eslint": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore src/**/*.ts",
+		"eslint:fix": "eslint --config ./node_modules/@gmahechas/common-devtools-ts-be/.eslintrc.js --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.eslintignore --fix src/**/*.ts",
+		"prettier": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check \"./src/**/*.{ts,json}\"",
+		"prettier:write": "prettier --config ./node_modules/@gmahechas/common-devtools-ts-be/.prettierrc --ignore-path ./node_modules/@gmahechas/common-devtools-ts-be/.prettierignore --check --write \"./src/**/*.{ts,json}\"",
 		"lint-staged": "lint-staged --config ./node_modules/@gmahechas/common-devtools-ts-be/.lintstagedrc",
 		"commitlint": "commitlint --config ./node_modules/@gmahechas/common-devtools-ts-be/commitlint.config.js --edit",
 		"format": "pnpm prettier:write && pnpm eslint:fix",
