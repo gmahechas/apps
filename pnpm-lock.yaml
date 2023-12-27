@@ -27,10 +27,7 @@ importers:
       '@gmahechas/common-devtools-ts-be':
         specifier: 0.0.8
         version: 0.0.8(typescript@5.3.3)
-      '@types/node':
-        specifier: 20.10.4
-        version: 20.10.4
-      typescript:
+      '@gmahechas/common-typescript-ts-be':
         specifier: 5.3.3
         version: 5.3.3
 
@@ -304,6 +301,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: false
+
+  /@gmahechas/common-typescript-ts-be@5.3.3:
+    resolution: {integrity: sha512-r6HIMh2kWFRZOgdyVO0RQzEV1exXBZtWcLlRdRVhHcqbsh29Mn5r6ZPvkNKRcTGoiWhoOvFgLfMNRLs/IR0oMw==}
+    dependencies:
+      '@types/node': 20.10.4
+      typescript: 5.3.3
+    dev: true
 
   /@gmahechas/common-utils-ts-be@0.0.1(@types/node@20.10.4)(typescript@5.3.3):
     resolution: {integrity: sha512-RRvk4+nz1BxVcAjmllFk9hrzWR/FK6mqdfGOWWVNZl8na7HfFsarfPsB1OGRjAyLojlpO2Bg/noeOGnNuWXNsQ==}
