@@ -16,7 +16,7 @@
 		"prepare": "init-husky"
 	},
 	"devDependencies": {
-		"@gmahechas/common-devtools-ts-be": "0.0.8",
+		"@gmahechas/common-devtools-ts-be": "0.0.9",
 		"lerna": "8.0.0"
 	}
 }
